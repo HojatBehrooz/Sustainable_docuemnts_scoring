@@ -20,7 +20,18 @@ The benchmarks were catagorized weighted by help of SMEs. The catagorizes are us
 **sim_to_bench_file='sim_to_bench.csv'**<br />
 
 The required functions are imported through:
-**from Carlo_ngrams_tool.utilities_recommendation import** <br />
-the utilityies_recomndation.py should be properly locate to be accesible by main modules. there are a library of text processing functions that is imported by utility_recomendation.py as well. it is:<br />
+**from Carlo_ngrams_tool.utilities_recommendation import** <br /> to import:
+**utilityies_recomndation.py** <br /> It should be properly located to be accesible by main modules. there are a library of text processing functions that is imported by utility_recomendation.py as well. it is:<br />
 **chunking_bforce_plus_space_add.py**<br />
-It should be also accesible properly. the library contains all text processing functions. 
+It should be also accesible properly. the library contains all text processing functions. <br /> the directory structure is as folllow:
+
+├── working_directory<br />
+│   ├── Recomendation_system__training_v26.py<br />
+│   ├── Recomendation_system_NLP_v26.py<br />
+│   ├── glove_dictionary_test.pkl<br />
+│   ├── rooted_benchmarks_11_07_2022.csv<br />
+│   ├── bench-to-crawled-duck_unique.csv<br />
+│   ├── Carlo_ngrams_tool<br />
+│   │       ├── utilityies_recomndation.py<br />
+│   │       ├── chunking_bforce_plus_space_add.py<br />
+
