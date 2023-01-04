@@ -19,3 +19,8 @@ file containg the level of the similarity of the input documents words to bencma
 The benchmarks were catagorized weighted by help of SMEs. The catagorizes are used for grouping required similarity measures. the output will saved as CSV file:<br />
 **sim_to_bench_file='sim_to_bench.csv'**<br />
 
+The required functions are imported through:
+**from Carlo_ngrams_tool.utilities_recommendation import** <br />
+the utilityies_recomndation.py should be properly locate to be accesible by main modules. there are a library of text processing functions that is imported by utility_recomendation.py as well. it is:<br />
+**chunking_bforce_plus_space_add.py**<br />
+It should be also accesible properly. the library contains all text processing functions. 
